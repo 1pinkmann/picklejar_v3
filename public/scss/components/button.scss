@@ -1,0 +1,29 @@
+/*-------- Button --------*/
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__icon {
+        width: 100%;
+    }
+
+    &__text {
+        font-size: 50px;
+        color: #000000;
+
+        transition: fill 0.2s ease-out;
+    }
+
+    &:hover &__text {
+        fill: #ffffff;
+    }
+}
+
+.button {
+    
+    &--angle {
+        width: 455px;
+    }
+}
