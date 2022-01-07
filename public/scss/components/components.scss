@@ -5,11 +5,13 @@
 
 /*-------- Elements --------*/
 @import './button.scss';
+@import './title.scss';
+@import './social.scss';
 
 /*-------- Sections --------*/
 @import './banner.scss';
-@import './app.scss';
-@import './steps.scss';
-@import './claim.scss';
-@import './box.scss';
-@import './help.scss';
+@import './account.scss';
+@import './section.scss';
+@import './create.scss';
+@import './share.scss';
+@import './light.scss';

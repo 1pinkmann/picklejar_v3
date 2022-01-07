@@ -1,0 +1,24 @@
+/*-------- Social --------*/
+
+.social {
+    display: flex;
+
+    &__item:not(:first-child) {
+        margin-left: 37px;
+    }
+
+    &__link {
+        display: block;
+    }
+
+    &__icon {
+        display: block;
+        color: #ffffff;
+
+        transition: color 0.2s ease-out;
+    }
+
+    &__icon:hover {
+        color: #3f9eea;
+    }
+}

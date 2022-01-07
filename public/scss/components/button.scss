@@ -1,29 +1,46 @@
 /*-------- Button --------*/
 
 .button {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    &__icon {
-        width: 100%;
+    border-radius: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.button {
+
+    &--banner {
+        height: 72px;
+        padding: 0 46px;
+
+        font-size: 25px;
+        background-color: $orange;
     }
 
-    &__text {
-        font-size: 50px;
-        color: #000000;
-
-        transition: fill 0.2s ease-out;
-    }
-
-    &:hover &__text {
-        fill: #ffffff;
+    &--banner:hover {
+        background-color: #ff7300f8; 
     }
 }
 
 .button {
-    
-    &--angle {
-        width: 455px;
+
+    &--green {
+        height: 77px;
+        padding: 0 82px;
+
+        background-color: #81bb3f;
+        border: 2px solid #ffffff;
+
+        font-size: 35px;
+        text-transform: unset;
+    }
+
+    &--green:hover {
+        background-color: #3fbb5e;
     }
 }

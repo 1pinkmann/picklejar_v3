@@ -1,63 +1,35 @@
 @font-face {
-    font-family: 'Lato-Regular';
-    src: url('subset-Lato-Regular.woff2') format('woff2'),
-        url('subset-Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato-Light';
-    src: url('subset-Lato-Light.woff2') format('woff2'),
-        url('subset-Lato-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Flintstock-Round-Oblique';
-    src: url('subset-Flintstock-RoundOblique.woff2') format('woff2'),
-        url('subset-Flintstock-RoundOblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato-Bold';
-    src: url('subset-Lato-Bold.woff2') format('woff2'),
-        url('subset-Lato-Bold.ttf') format('truetype');
+    font-family: 'Gotham Bold';
+    src: url('subset-Gotham-Bold.woff2') format('woff2'),
+        url('subset-Gotham-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Flintstock-Round';
-    src: url('subset-Flintstock-Round.woff2') format('woff2'),
-        url('subset-Flintstock-Round.ttf') format('truetype');
+    font-family: 'Gotham Book';
+    src: url('subset-Gotham-Book.woff2') format('woff2'),
+        url('subset-Gotham-Book.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('subset-Roboto-Regular.woff2') format('woff2'),
+        url('subset-Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Flintstock-Oblique';
-    src: url('subset-Flintstock-RegularOblique.woff2') format('woff2'),
-        url('subset-Flintstock-RegularOblique.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Avenir Next Ultra';
+    src: url('subset-AvenirNext-UltraLight.woff2') format('woff2'),
+        url('subset-AvenirNext-UltraLight.ttf') format('truetype');
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Flintstock-Regular';
-    src: url('subset-Flintstock-Regular.woff2') format('woff2'),
-        url('subset-Flintstock-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-

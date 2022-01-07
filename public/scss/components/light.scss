@@ -1,0 +1,67 @@
+/*-------- Light --------*/
+
+.light {
+    height: 1383px;
+    padding-top: 94px;
+    margin-top: -94px;
+    padding-bottom: 41px;
+
+    position: relative;
+
+    background-image: url(../images/light/light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__wrapper {
+        text-align: center;
+    }
+
+    &__title {
+        font-family: $font-book;
+        color: $orange;
+        font-size: 65px;
+    }
+
+    &__title strong {
+        font-family: $font-b;
+    }
+
+    &__title span {
+        font-size: 50px;
+    }
+
+    &__text {
+        max-width: 1135px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+
+        font-family: $font-book;
+        font-size: 29px;
+        line-height: 1.3;
+    }
+
+    &__button {
+        margin-top: 50px;
+    }
+
+    &__icon {
+        height: 37%;
+
+        position: absolute;
+        left: 50%;
+        top: 38%;
+        transform: translateX(-50%);
+
+        mix-blend-mode: soft-light;
+    }
+
+    &__icon-text {
+        font-family: $font-av;
+        font-size: 385px;
+        fill: #ffffff;
+        text-transform: uppercase;
+    }
+}

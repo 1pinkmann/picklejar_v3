@@ -1,9 +1,12 @@
 /*-------- Header --------*/
 
 .header {
-    background: radial-gradient(circle, rgba(233,43,57,1) 0%, rgba(162,1,16,1) 100%);
-    box-shadow: 0 0 17px 13px rgba(0, 0, 0, 0.4);
-    position: relative;
+    width: 100%;
+    height: 188px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
 
     &__wrapper {
         display: flex;
@@ -14,8 +17,9 @@
     }
 
     &__logo {
-        width: 359px;
+        width: 378px;
         height: 100%;
+        color: #ffffff;
     }
 
     &__logo-icon {
@@ -26,7 +30,7 @@
     }
 
     &__logo:hover &__logo-icon {
-        color: #afafaf;
+        color: $orange;
     }
 
     &__link {

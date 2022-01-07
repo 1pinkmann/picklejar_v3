@@ -1,0 +1,19 @@
+/*-------- Create --------*/
+
+.create {
+    height: 787px;
+    padding-top: 168px;
+
+    background-image: url(../images/create/create.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__text {
+        max-width: 678px;
+        margin-top: 60px;
+        
+        font-size: 30px;
+        line-height: 1.2;
+    }
+}

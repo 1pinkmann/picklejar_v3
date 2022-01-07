@@ -1,10 +1,10 @@
 /*-------- Fonts --------*/
-$font-r: "Lato-Regular";
-$font-l: "Lato-Light";
-$font-b: "Lato-Bold";
-$font-fs-r: "Flintstock-Regular";
-$font-fs-rd: "Flintstock-Round";
-$font-fs-o: "Flintstock-Oblique";
-$font-fs-rd-o: "Flintstock-Round-Oblique";
+$font-r: "Roboto";
+$font-b: "Gotham Bold";
+$font-book: "Gotham Book";
+$font-av: "Avenir Next Ultra";
+
+/*-------- Colors --------*/
+$orange: #ff9500;
 
 @import './components/components.scss';

@@ -1,0 +1,75 @@
+/*-------- Section --------*/
+
+.section {
+    padding-top: 57px;
+    padding-bottom: 58px;
+
+    font-family: $font-book;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__wrapper:before, &__wrapper:after {
+        content: '';
+        display: block;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 306px;
+        height: 4px;
+        background-color: #ffffff;
+    }
+
+    &__wrapper {
+        text-align: center;
+    }
+
+    &__title {
+        margin-top: 41px;
+        font-size: 78px;
+    }
+
+    &__title strong {
+        font-family: $font-b;
+    }
+
+    &__text {
+        margin-top: 17px;
+        margin-bottom: 40px;
+
+        font-size: 41px;
+        line-height: 1.5;
+    }
+
+    &__text strong {
+        font-family: $font-b;
+    }
+}
+
+.section {
+
+    &--limited {
+        height: 419px;
+        background-image: url(../images/sections/section1.png);
+    }
+}
+
+.section {
+
+    &--bonus {
+        height: 446px;
+        background-image: url(../images/sections/section2.png);
+    }
+
+    &--bonus &__text {
+        margin-top: 29px;
+        margin-bottom: 50px;
+        line-height: 1.2;
+    }
+
+    &--bonus &__title {
+        margin-top: 49px;
+    }
+}
