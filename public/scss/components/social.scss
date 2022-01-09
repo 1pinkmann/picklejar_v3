@@ -12,6 +12,9 @@
     }
 
     &__icon {
+        width: 100%;
+        height: auto;
+
         display: block;
         color: #ffffff;
 
@@ -20,5 +23,29 @@
 
     &__icon:hover {
         color: #3f9eea;
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .social {
+        
+        &__link {
+            width: 65px;
+        }
+    }
+}
+
+@media (max-width: 989px) {
+
+    .social {
+        
+        &__link {
+            width: 40px;
+        }
+
+        &__item:not(:first-child) {
+            margin-left: 16px;
+        }
     }
 }

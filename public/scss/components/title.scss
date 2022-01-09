@@ -69,3 +69,65 @@
         background-color: #3f9eea;
     }
 }
+
+@media (max-width: 1399px) {
+
+    .title {
+        font-size: 68px;
+    }
+}
+
+@media (max-width: 989px) {
+
+    .title {
+        font-size: 47px;
+
+        span {
+            margin-top: 5px;
+        }
+
+        &:after {
+            margin-top: 30px;
+        }
+    }
+
+    .title {
+
+        &--banner:after {
+            width: 220px;
+        }
+    }
+
+    .title {
+
+        &--pink:after {
+            width: 219px;
+        }
+    }
+
+    .title {
+
+        &--green:after {
+            width: 191px;
+        }
+    }
+
+    .title {
+
+        &--blue:after {
+            width: 164px;
+        }
+    }
+}
+
+@media (max-width: 619px) {
+
+    .title {
+        font-size: 35px;
+
+        &:after {
+            margin-top: 20px;
+        }
+    }
+    
+}

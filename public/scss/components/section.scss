@@ -73,3 +73,135 @@
         margin-top: 49px;
     }
 }
+
+@media (max-width: 1399px) {
+
+    .section {
+        height: 334px;
+        padding-top: 49px;
+
+        &__title {
+            font-size: 50px;
+        }
+
+        &__text {
+            font-size: 27px;
+        }
+    }
+
+    .section {
+
+        &--bonus {
+            height: 355px;
+        }
+    }
+}
+
+@media (max-width: 989px) {
+
+    .section {
+        height: 229px;
+        padding-top: 34px;
+        padding-bottom: 27px;
+
+        &__title {
+            margin-top: 26px;
+            font-size: 34px;
+        }
+
+        &__text {
+            margin-top: 17px;
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+    }
+
+    .section {
+
+        &--bonus {
+            height: 244px;
+            padding-top: 40px;
+        }
+
+        &--bonus &__title {
+            margin-top: 26px;
+        }
+
+        &--bonus &__text {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 619px) {
+
+    .section {
+        height: 153px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+        &__title {
+            margin-top: 18px;
+            font-size: 24px;
+        }
+
+        &__text {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+    }
+
+    .section {
+
+        &--bonus {
+            height: 163px;
+            padding-top: 18px;
+        }
+
+        &--bonus &__text {
+            margin-top: 14px;
+            margin-bottom: 14px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+
+    .section {
+
+        &__text {
+            font-size: 13px;
+        }
+    }
+
+    .section {
+
+        &--bonus &__title {
+            font-size: 21px;
+        }
+    }
+}
+
+@media (max-width: 359px) {
+
+    .section {
+
+        &__text {
+            font-size: 12px;
+        }
+    }
+
+    .section {
+
+        &--bonus &__title {
+            font-size: 20px;
+        }
+
+        &--bonus &__text {
+            margin-top: 18px;
+            margin-bottom: 21px;
+        }
+    }
+}

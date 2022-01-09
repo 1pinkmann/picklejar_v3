@@ -13,6 +13,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    overflow: hidden;
+
     &__wrapper {
         text-align: center;
     }
@@ -28,7 +30,7 @@
     }
 
     &__title span {
-        font-size: 50px;
+        font-size: 77%;
     }
 
     &__text {
@@ -45,6 +47,8 @@
 
     &__button {
         margin-top: 50px;
+        z-index: 1;
+        position: relative;
     }
 
     &__icon {
@@ -63,5 +67,100 @@
         font-size: 385px;
         fill: #ffffff;
         text-transform: uppercase;
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .light {
+        height: 1030px;
+
+        &__title {
+            font-size: 49px;
+        }
+
+        &__text {
+            font-size: 21px;
+        }
+
+        &__button {
+            height: 60px;
+            padding: 0 40px;
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 989px) {
+
+    .light {
+        height: 708px;
+
+        &__title {
+            font-size: 37px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__button {
+            margin-top: 37px;
+        }
+
+        &__icon {
+            height: 30%;
+            top: 49%;
+        }
+    }
+}
+
+@media (max-width: 619px) {
+
+    .light {
+        height: 472px;
+        padding-top: 30px;
+        margin-top: 0;
+        padding-bottom: 140px;
+
+        &__title {
+            font-size: 28px;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+
+        &__button {
+            margin-top: 30px;
+            height: 50px;
+            padding: 0 35px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+
+    .light {
+
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 359px) {
+
+    .light {
+
+        &__title {
+            font-size: 19px;
+        }
+
+        &__icon {
+            height: 19%;
+            top: 45%;
+        }
     }
 }

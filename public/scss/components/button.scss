@@ -44,3 +44,38 @@
         background-color: #3fbb5e;
     }
 }
+
+@media (max-width: 1399px) {
+
+    .button {
+
+        &--banner {
+            height: 57px;
+            padding: 0 25px;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 989px) {
+
+    .button {
+
+        &--banner {
+            height: 50px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 619px) {
+
+    .button {
+
+        &--banner {
+            height: 40px;
+            padding: 0 20px;
+            font-size: 16px;
+        }
+    }
+}
