@@ -60,10 +60,28 @@ input[type="number"] {
     padding: 0 20px;
 }
 
+.buttons {
+    margin-top: 51px;
+}
+
 @media (max-width: 1399px) {
 
     .container {
         max-width: 970px;
+    }
+}
+
+@media (max-width: 989px) {
+
+    .buttons {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 619px) {
+
+    .buttons {
+        margin-top: 25px;
     }
 }
 
